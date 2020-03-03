@@ -14,7 +14,7 @@ Ultimate Spring Hello World Project
 
 - Maven: Tecnología que nos permite administrar las dependencias de nuestro proyecto.
 - Lombok: Dependencia que nos permite reducir nuestro código por medio de anotaciones, por ejemplo los Getter `@Getter` y los Setter `@Setter`.
-- Thymeleaf: Motor de plantillas para MVC.
+- Thymeleaf: Motor de plantillas para MVC. Para hacer uso de este motor en nuestros HTML files se debe agregar `<html lang="en" xmlns:th="http://www.thymeleaf.org">` luego de la primera etiqueta. 
 
 ### Annotations
 
@@ -28,5 +28,6 @@ Ultimate Spring Hello World Project
 - `Change default port:` server.port=9090, por default es `8080`.
 - `Change logging level:` logging.level.root=DEBUG, por default es `INFO.
 - `Change logging date pattern`: logging.pattern.dateformat=hh:mm, para enviar solo la hora a nuestro log en vez de la fecha completa.
+- `Change Thymeleaf cache config`: spring.thymeleaf.cache=false
 
 
