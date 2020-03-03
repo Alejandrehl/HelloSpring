@@ -7,6 +7,8 @@ Spring Hello World Project
 - Spring Boot: Permite crear aplicaciones Java de manera muy simple, se puede dividir en `Reactive Stack` & `Servlet Stack`.
 - Spring Cloud: Permite crear aplicaciones para la nube.
 - Spring Cloud DataFlow: Permite comunicar de mejor manera aplicaciones que utilizan micro servicios.
+- `application.properties:` Es el archivo de configuración de nuestro proyecto.
+- `Spring Initializer:` Es la herramienta que se utiliza para crear un nuevo proyecto con Spring Boot.
 
 
 ### Dependencies
