@@ -14,12 +14,18 @@ public class HomeController {
     @GetMapping("/")
     public String index(Model model) {
         var message = "Ultimate Spring Hello World";
-        var person = new Person();
 
+        var person = new Person();
         person.setName("Alejandro");
         person.setLastName("Hernández");
         person.setEmail("+56951064707");
         person.setEmail("Alejandrehl@icloud.com");
+
+        var person2 = new Person();
+        person2.setName("Fernanda");
+        person2.setLastName("Coloma");
+        person2.setEmail("+56951064708");
+        person2.setEmail("FerIgnacia19@gmail.com");
 
         model.addAttribute("message", message);
         model.addAttribute("greeting", greeting);
