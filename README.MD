@@ -33,4 +33,8 @@ Ultimate Spring Hello World Project
 - `Change logging date pattern`: logging.pattern.dateformat=hh:mm, para enviar solo la hora a nuestro log en vez de la fecha completa.
 - `Change Thymeleaf cache config`: spring.thymeleaf.cache=false
 
+### Important Notes
+
+- Se puede pasar información a los controladores desde el application.properties.
+
 
