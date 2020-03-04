@@ -23,6 +23,9 @@ Ultimate Spring Hello World Project
 - @GetMapping: Anotación que nos permite indicar que el método de un controlador se accede por el método HTTP GET.
 - @Slf4j: Anotación de Lombok que nos permite utilizan el `logging` es nuestras clases, un ejemplo es `log.info("Ejecutando Controlador")`.
 
+### Params/Properties
+- `Model:` Nos permite pasar parametros a la vista de nuestro controlador.
+
 ### Custom Configs `application.properties`
 
 - `Change default port:` server.port=9090, por default es `8080`.
