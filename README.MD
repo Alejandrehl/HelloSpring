@@ -22,6 +22,7 @@ Ultimate Spring Hello World Project
 - @RestController: Anotación que nos permite indicar que una clase es un controlador rest.
 - @GetMapping: Anotación que nos permite indicar que el método de un controlador se accede por el método HTTP GET.
 - @Slf4j: Anotación de Lombok que nos permite utilizan el `logging` es nuestras clases, un ejemplo es `log.info("Ejecutando Controlador")`.
+- @Data: Anotación que se usa en nuestros domains, genera métodos como getters, setters y lo que sea necesario para que la clase se reconozca como un Java Bean.
 
 ### Params/Properties
 - `Model:` Nos permite pasar parametros a la vista de nuestro controlador.
