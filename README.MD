@@ -37,5 +37,6 @@ Ultimate Spring Hello World Project
 ### Important Notes
 
 - Se puede pasar información a los controladores desde el application.properties.
+- La nuevas versiones de Java tienen maneras de reducir el código al igual que JavaScript, un ejemplo de estas funciones es: `var persons = Arrays.asList(person, person2);` y quiere decir que se esta creando un ArrayList llamado `persons` que se llena con dos personas creadas previamente.
 
 

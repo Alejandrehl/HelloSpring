@@ -6,6 +6,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 @Controller
 public class HomeController {
     @Value("${index.greetings}")
@@ -27,9 +30,11 @@ public class HomeController {
         person2.setEmail("+56951064708");
         person2.setEmail("FerIgnacia19@gmail.com");
 
+        var persons = Arrays.asList(person, person2);
+
         model.addAttribute("message", message);
         model.addAttribute("greeting", greeting);
-        model.addAttribute("person", person);
+        model.addAttribute("persons", persons);
 
         return "index";
     }
