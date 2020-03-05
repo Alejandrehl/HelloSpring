@@ -9,19 +9,21 @@
     <p th:text="${message}"></p>
     <p th:text="${greeting}"></p>
 
-    <table border="1">
-        <tr>
-            <th>Name</th>
-            <th>Last Name</th>
-            <th>Email</th>
-            <th>Phone</th>
-        </tr>
+    <div th:if="${persons != null and !persons.empty}">
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+            </tr>
         <tr th:each="person : ${persons}">
             <td th:text="${person.name}"></td>
             <td th:text="${person.lastName}"></td>
             <td th:text="${person.email}"></td>
             <td th:text="${person.phone}"></td>
         </tr>
-    </table>
+        </table>
+    </div>
 </body>
 </html>
