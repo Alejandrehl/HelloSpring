@@ -21,13 +21,13 @@ public class HomeController {
         var person = new Person();
         person.setName("Alejandro");
         person.setLastName("Hernández");
-        person.setEmail("+56951064707");
+        person.setPhone("+56951064707");
         person.setEmail("Alejandrehl@icloud.com");
 
         var person2 = new Person();
         person2.setName("Fernanda");
         person2.setLastName("Coloma");
-        person2.setEmail("+56951064708");
+        person2.setPhone("+56951064708");
         person2.setEmail("FerIgnacia19@gmail.com");
 
         var persons = Arrays.asList(person, person2);

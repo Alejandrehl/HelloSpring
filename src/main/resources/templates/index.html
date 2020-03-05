@@ -8,5 +8,20 @@
     <h1>Home Page</h1>
     <p th:text="${message}"></p>
     <p th:text="${greeting}"></p>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+        </tr>
+        <tr th:each="person : ${persons}">
+            <td th:text="${person.name}"></td>
+            <td th:text="${person.lastName}"></td>
+            <td th:text="${person.email}"></td>
+            <td th:text="${person.phone}"></td>
+        </tr>
+    </table>
 </body>
 </html>
