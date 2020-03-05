@@ -25,5 +25,9 @@
         </tr>
         </table>
     </div>
+
+    <div th:if="${persons == null or persons.empty}">
+        <h6>Void Person List ...</h6>
+    </div>
 </body>
 </html>
